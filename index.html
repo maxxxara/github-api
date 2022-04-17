@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Github API</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<div class="header__content">
+			<div class="logo">
+				<h3 style="font-weight: 400; letter-spacing: 3px;">git<span style="font-weight: 700;">Finder</span></h3>
+			</div>
+			<div class="n_mode">
+				<span>DARK</span>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="search__div">
+	<div class="container">
+		<div class="search__content">
+			<input type="text" id="search__input" placeholder="Search with username..">
+			<button class="search-button">Search</button>
+		</div>
+	</div>
+</div>
+
+<div class="msg">
+	<div class="container">
+		<h3 style="color: #fff;">Search user...</h3>
+	</div>
+</div>
+
+
+<div class="user">
+	<div class="container">
+		<div class="user__content">
+			<div class="user__image">
+				<img src="img/avatar.jpg" class="user__image-img">
+			</div>
+			<div class="user__row">
+				<div class="user__texts">
+					<p class="user__texts-name"></p>
+					<p class="user__texts-link"></p>
+					<p class="user__texts-bio"></p>
+				</div>
+				<div class="user__info">
+					<div class="user__info-col">
+						<span>Repos</span>
+						<p class="user__info-repos"></p>
+					</div>
+					<div class="user__info-col">
+						<span>Followers</span>
+						<p class="user__info-followers"></p>
+					</div>
+					<div class="user__info-col">
+						<span>Following</span>
+						<p class="user__info-following"></p>
+					</div>
+				</div>
+				<div class="user__links">
+					<div class="user__links-row">
+						<div class="user__link-col">
+						    <i data-feather="map-pin"></i>
+						    <span class="user__link-city"></span>
+						</div>
+						<div class="user__link-col">
+						    <i data-feather="twitter"></i>
+						    <span class="user__link-twitter"></span>
+						</div>			
+					</div>
+					<div class="user__links-row">
+						<div class="user__link-col">
+						    <i data-feather="link"></i>
+						    <span class="user__link-site">
+						    	<a href="" class="user-site">https://github.org</a>
+						    </span>
+						</div>
+						<div class="user__link-col">
+						    <i data-feather="home"></i>
+						    <span class="user__link-address"></span>
+						</div>			
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<script>
+  feather.replace()
+</script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
